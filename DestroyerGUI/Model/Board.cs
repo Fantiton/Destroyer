@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace DestroyerGUI.Model
 {
-    internal class Board
+    public class Board
     {
-        public List<Ship> Ships {  get; private set; } = new List<Ship>();
+        public List<Ship> Ships { get; private set; }
+
+        public Board()
+        {
+            Ships = new List<Ship>();
+        }
     }
 }

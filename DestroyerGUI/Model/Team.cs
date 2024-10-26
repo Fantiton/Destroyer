@@ -7,7 +7,7 @@ using System.Windows.Media;
 
 namespace DestroyerGUI.Model
 {
-    internal class Team
+    public class Team
     {
         public string Name { get; set; }
         public Color Color {  get; set; }

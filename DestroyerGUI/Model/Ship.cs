@@ -7,7 +7,7 @@ using System.Windows.Shapes;
 
 namespace DestroyerGUI.Model
 {
-    internal class Ship
+    public class Ship
     {
         public double X { get; set; }
         public double Y { get; set; }
